@@ -1,5 +1,8 @@
 <?php
-// @TODO
+$start= new DateTime('2026-03-03');
+$end= new DateTime('2026-06-09')
+$interval= new Dateinterval('P1W');
+$period= new Dateperiod('$start, $interval, $end');
 ?>
 <?php include 'includes/header.php'; ?> 
   <p>
